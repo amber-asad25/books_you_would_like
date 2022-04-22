@@ -31,7 +31,7 @@ After collecting the required data, I have to clean it up to make it in the form
 
 ## Collaborative Filtering
 I narrowed my data sets by choosing those users who give ratings greater than 200. I merge the books and rating dataset to get the number_of_rating column and select only those books which have a number_of_ratings greater than and equal to 50. I made a pivot table whose columns contain user_id, index is book title and values are ratings. I created a sparse CSR matrix out of the pivot table to save memory for efficient model building.
-![alt text](https://github.com/amber-asad25/books_you_would_like/blob/master/pivot-table.PNG "Pivot Table")  
+![alt text](https://github.com/amber-asad25/books_you_would_like/blob/main/pivot-table.png "Pivot Table")  
 
 ## Model Building 
 
@@ -39,7 +39,7 @@ I used **Nearest Neighbors**for building my machine learning model, from sklearn
 
 ## Application User Interface
 I used streamlit to create the UI of this machine learning application.
-![alt text](https://github.com/amber-asad25/books_you_would_lik/blob/master/front-end.PNG "Front-end")
+![alt text](https://github.com/amber-asad25/books_you_would_like/blob/main/frond-end.png "Front-end")
 
 ## Model Deployment
 In this step, I built a web application for my project by using Heroku. 
